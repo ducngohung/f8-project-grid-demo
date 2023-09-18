@@ -1,0 +1,31 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+}
+
+.card-item {
+  padding: 10px;
+  border: 1px dashed orange;
+  text-align: center;
+  font-weight: 600;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 30px;
+
+  background: #ccc;
+
+  font-size: 30px;
+  font-weight: 600;
+}
